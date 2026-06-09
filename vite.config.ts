@@ -6,7 +6,7 @@ export default defineConfig({
 
   // Use the real GitHub repository name here.
   // Example final URL: https://TudorDan.github.io/space-app/
-  base: '/',
+  base: '/max/',
 
   // Local development only.
   server: {
