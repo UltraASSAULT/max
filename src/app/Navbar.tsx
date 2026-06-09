@@ -9,7 +9,7 @@ const Navbar = () => {
   const navLinks = [
     { label: 'Home', to: '/' },
     { label: 'Search', to: '/search' },
-    { label: 'Destinations', to: '#destinations' },
+    { label: 'Planets', to: '/planets' },
     { label: 'Weather', to: '/weather' },
     { label: 'About Us', to: '#about' },
     { label: 'Contact', to: '#contact' },

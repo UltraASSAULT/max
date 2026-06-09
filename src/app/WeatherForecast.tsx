@@ -33,7 +33,8 @@ const WeatherPage = () => {
     const [error, setError] = useState<string | null>(null);
     const [hasSearched, setHasSearched] = useState(false);
 
-    const API_BASE = 'http://localhost:5001/api/Weather/current-by-city';
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+    const API_BASE = `${API_BASE_URL}/api/Weather/current-by-city`;
 
     const fetchWeather = useCallback(async () => {
         if (!city.trim()) return;
