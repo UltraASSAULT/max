@@ -8,7 +8,7 @@ import PlanetsPage from './app/PlanetsPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/max">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
